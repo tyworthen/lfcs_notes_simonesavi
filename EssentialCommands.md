@@ -3,7 +3,8 @@
 ## Log into local & remote graphical and text mode consoles
 
 Basic concept to know:
-
+<details>
+  <summary>Text Terminal vs Console vs Shell</summary>
 * **Text Terminal**: text input/output environment.
   * Originally, they meant a piece of equipment through which you could interact with a computer: in the early days of Unix, that meant a teleprinter-style device resembling a typewriter, sometimes called a teletypewriter, or “tty” in shorthand
   * Tty were used to establish a connection to a mainframe computer and share operating system provided by it
@@ -31,7 +32,7 @@ To summarize: A virtual console is a shell prompted in a non-graphical environme
   * Some applications running inside X Windows System provide pseudo-terminal e.g. Konsole, Gnome Terminal
   * If graphical environment is not started, you can run command `startx` to execute it
 
-
+</details>
 
 Log in:
 
